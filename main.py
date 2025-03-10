@@ -20,7 +20,7 @@ def function(mes: str, shift: int):
 # After the loop, join the list into a string and return it  
     return ''.join(shift_message)
 # Get user input for the message and shift value  
-
-user=function(input("enter the message "),int(input("enter shift value ")))
+user=[]
+user.append(function(input("enter the message "),int(input("enter shift value "))))
 # Call the function with the inputs and display the result
 print (user)
